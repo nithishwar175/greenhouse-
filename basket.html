@@ -1,0 +1,134 @@
+<html>
+<head>
+     <title>GREEN HOUSE PET ZONE</title>
+     <link href="style.css" rel="style sheet" type="text/css">
+     <link rel="stylesheet" href="bullet.html">
+ </head>
+<body>
+    <style>
+*{
+margin: 0;
+padding: 0;
+font-family:"poppins",sans-serif ;
+box-sizing: border-box;
+}
+.header{
+  height: 100vh;
+  width: 100%;
+  padding:0 8% ;
+  background-image: url("1 crop.png");
+position: relative;
+
+}
+.body{
+    background-color: cadetblue;
+}
+nav{
+ display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.logo{
+     width: 140px;
+}
+.nav-links{
+padding: 28px 0;
+}
+.nav-link li{
+display: inline-block;
+margin: 0 15px;
+}
+.nav-link li a{
+        text-decoration:none ;
+    color:black;
+   padding: 5px 0;
+   position: relative;
+}
+.nav-link li a::after{
+   content: '';
+   background:#ff3d00 ;
+   width: 0%;
+   height: 2px;
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   transition: width 0.5s;
+}
+.nav-link li a:hover::after{
+   width: 100%
+}
+.btn{
+background:orangered;
+color: #fff;
+padding: 10px 30px;
+ border-radius: 3px;
+cursor:pointer;
+}
+.content{
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      width:90% ;
+      max-width: 900px;
+      transform:translate(-50%, -50%) ;
+      text-align: center;
+      color:transparent;
+}
+.content h1{
+font-size:65px ;
+font-weight:600px ;
+margin-bottom:40px ;
+}
+.content form {
+   background:transparent;
+   border: solid 5px;
+   padding: 10px;
+   border-radius: 8px;
+   display: flex;
+}
+.content form input{
+    flex: 1;
+   border: none;
+   outline: none;
+   padding: 0  40px;
+   font-size: 20px;
+}
+.content form button{
+background: #ff3d00;
+color: #fff;
+padding: 15px 40px;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+.marquee{
+    margin-top: 10px;
+}
+.marquee1{
+    margin-top: 2px 30px 40px;
+}
+/* .scrollimg marquee{
+    float:left;
+} */
+
+    </style>
+   <div class ="header">
+    <nav>
+  <img src="Untitled_design-removebg-preview.png" class="logo">
+   <ul class="nav-link">
+<li><a href="index.html">HOME</a></li>
+<li><a href="">NOTIFICATION</a></li>
+<li><a href="basket.html">BASKET</a></li>
+<li><a href="favourite page.html">FAVOURITES</a></li>
+<li><a href="reviews pages.html">REVIEWS</a></li>
+<li><a href="CONTACT US page.html">CONTACT</a></li>
+<li><a href="account page.html">ACCOUNT</a></li>
+<li><a href="login page.html"> SIGN UP</li></a> 
+</ul>
+</nav>
+ <div class="content">
+<h1> GREEN HOUSE PET ZONE</h1>
+
+</body>
+</html>

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS_PAGE</title>
+    <style>
+        body{
+            background-color: lightgoldenrodyellow;
+        }
+    </style>
+</head>
+<body>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        font-family:"poppins",sans-serif ;
+        box-sizing: border-box;
+        }
+        .header{
+            
+          height: 100vh;
+          width: 100%;
+          padding:0 8% ;
+          position: relative;
+        }
+        .header img{
+            border-style: solid;
+            border-color: orangered;
+        }
+
+        .body{
+            background-color: cadetblue;
+        }
+        nav{
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .logo{
+             width: 140px;
+        }
+        .nav-links{
+        padding: 28px 0;
+        }
+        .nav-link li{
+        display: inline-block;
+        margin: 0 15px;
+        }
+        .nav-link li a{
+                text-decoration:none ;
+            color:black;
+           padding: 5px 0;
+           position: relative;
+        }
+        .nav-link li a::after{
+           content: '';
+           background:#ff3d00 ;
+           width: 0%;
+           height: 2px;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           transition: width 0.5s;
+        }
+        .nav-link li a:hover::after{
+           width: 100%
+        }
+        .btn{
+        background:orangered;
+        color: #fff;
+        padding: 10px 30px;
+         border-radius: 3px;
+        cursor:pointer;
+        }
+        .content{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              width:90% ;
+              max-width: 900px;
+              transform:translate(-50%, -50%) ;
+              text-align: center;
+              color:transparent;
+        }
+        .content h1{
+        font-size:65px ;
+        font-weight:600px ;
+        margin-bottom:40px ;
+        }
+        .content form {
+           background:transparent;
+           border: solid 5px;
+           padding: 10px;
+           border-radius: 8px;
+           display: flex;
+        }
+        .content form input{
+            flex: 1;
+           border: none;
+           outline: none;
+           padding: 0  40px;
+           font-size: 20px;
+        }
+        .content form button{
+        background: #ff3d00;
+        color: #fff;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 60px;
+        }
+        .code{
+            margin-top: 615px;
+            background-image: url("gardening\ boy.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-color: cadetblue;
+        }
+        .marquee{
+            margin-top: 10px;
+        }
+        .marquee1{
+            margin-top: 2px 30px 40px;
+        }
+        .col3{  margin-left: 200px;
+            margin-right: 200px; 
+               text-align: center;
+               padding-top: 50px;
+      
+    }        
+            </style>
+            <div class ="header">
+                <nav>
+              <img src="Untitled_design-removebg-preview.png" class="logo">
+               <ul class="nav-link">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="">NOTIFICATION</a></li>
+        <li><a href="basket.html">BASKET</a></li>
+        <li><a href="favourite page.html">FAVOURITES</a></li>
+        <li><a href="reviews pages.html">REVIEWS</a></li>
+        <li><a href="CONTACT US page.html">CONTACT</a></li>
+        <li><a href="account page.html">ACCOUNT</a></li>
+        <li><a href="login page.html"> SIGN UP</li></a> 
+            </ul>
+            </nav>
+         <div class="content">
+        <h1> GREEN HOUSE PET ZONE</h1>
+             </div> 
+
+            <div class="col3">
+                <h1>REX RAT</h1>
+                <img src="main-qimg-a929e855502af28bca07f6f6138a8c45-pjlq.jfif" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Rex refers to a genetic mutation that produces curly or wavy hair on rats. The rex mutation also occurs in cats, guinea pig, and rabbits</p>
+            </div>
+
+            <div class="col3">
+                <h1>Manx Rat</h1>
+                <img src="Dumbo-Rats-SN-long.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Dumbo rats are known for their cute, low-slung, floppy ears that resemble those of the beloved Disney cartoon elephant</p>
+            </div>
+             <div class="col3">
+                <h1>Bristle Coat Rat</h1>
+                <img src="baby-rats.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>As the name implies, bristle coat rats have coarse coats, like a wire brush. Their fur may even feel crunchy, like the coat of wirehair terriers.</p>
+            </div>
+            <div class="col3">
+                <h1>Syrian Hamster</h1>
+                <img src="ricky-kharawala-adK3Vu70DEQ-unsplash-scaled-e1628706903421.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The golden hamster or Syrian hamster is a rodent belonging to the hamster subfamily, Cricetinae. Their natural geographical range is in an arid region of northern Syria and southern Turkey. Their numbers have been declining in the wild due to a loss of habitat from agriculture and deliberate elimination by humans. Wikipedia
+                    Lifespan: 2 – 3 years
+                    Gestation period: 15 – 18 days
+                    Length: 13 – 18 cm (Adult)
+                    Scientific name: Mesocricetus auratus
+                    Conservation status: Vulnerable (Population decreasing) Encyclopedia of Life
+                    Trophic level: Omnivorous Encyclopedia of Life
+                    Mass: 85 – 150 g (Adult)</p>
+            </div>
+            <div class="col3">
+                <h1>Chinese Hamster</h1>
+                <img src="_methode_times_prod_web_bin_6d322d4e-3c9c-11ec-a9ce-48a11f44f00d.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Chinese hamster is a rodent in the genus Cricetulus of the subfamily Cricetidae that originated in the deserts of northern China and Mongolia. They are distinguished by an uncommonly long tail in comparison to other hamsters, most of whose tails are stubby. Wikipedia
+                    Lifespan: 2 – 3 years
+                    Mass: 30 – 45 g (Adult)
+                    Length: 8.2 – 13 cm (Adult)
+                    Tail length: 2 – 3.3 cm (Adult)
+                    Scientific name: Cricetulus griseus
+                    Higher classification: Cricetulus
+                    Family: Cricetidae</p>
+            </div>
+            <div class="col3">
+                <h1>Winter White Russian Dwarf Hamster</h1>
+                <img src="Winter-White-Hamster-Facts-Everything-You-Need-to-Know-SN-long.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The winter white dwarf hamster, also known as the Russian dwarf hamster, Djungarian hamster, striped dwarf hamster, Siberian hamster, or Siberian dwarf hamster, is one of three species of hamster in the genus Phodopus. Wikipedia
+                    Lifespan: 12 months (In the wild)
+                    Mass: 30 g (Adult) Encyclopedia of Life
+                    Scientific name: Phodopus sungorus
+                    Gestation period: 21 days Encyclopedia of Life
+                    Trophic level: Omnivorous Encyclopedia of Life
+                    Length: 8 cm (Adult) Encyclopedia of Life
+                    Conservation status: Least Concern Encyclopedia of Life</p>
+            </div>
+            <div class="col3">
+                <h1>Campbell’s Russian Dwarf Hamster </h1>
+                <img src="e26fc428a2f90d235ed91e983d869c8cddef7cda86090.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Campbell's dwarf hamster is a species of hamster in the genus Phodopus. It was given its common name by Oldfield Thomas in honor of Charles William Campbell, who collected the first specimen in Mongolia on July 1, 1902. Wikipedia
+                    Lifespan: 2 – 2 years (In captivity, Born in the summer)
+                    Mass: 27 g (Adult) Encyclopedia of Life
+                    Length: 9.1 cm (Adult) Encyclopedia of Life
+                    Gestation period: 18 – 20 days (In captivity)
+                    Conservation status: Least Concern (Population stable) Encyclopedia of Life
+                    Class: Mammalia
+                    Kingdom: Animalia</p>
+            </div>
+            <div class="col3">
+                <h1>Roborovski Dwarf Hamster</h1>
+                <img src="a-complete-guide-to-roborovski-hamsters.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>About
+                    The Roborovski hamster, also known as the desert hamster, Robo dwarf hamster, or simply dwarf hamster, is the smallest of three species of hamster in the genus Phodopus. It lives in the deserts of Central Asia, averaging under 2 centimetres at birth and 4.5–5 centimetres and 20–25 grams during adulthood. Wikipedia
+                    Lifespan: 2 – 3 years
+                    Mass: 20 – 25 g (Adult)
+                    Gestation period: 20 – 22 days
+                    Scientific name: Phodopus roborovskii
+                    Length: 4.5 – 5 cm (Adult)
+                    Trophic level: Omnivorous Encyclopedia of Life
+                    Conservation status: Least Concern (Population stable) Encyclopedia of Life</p>
+            </div>
+            <center>
+                <br>
+                <hr>
+             <div class="hover1">
+              <h2> ONLINE_SHOPPING</h2>
+              <P>
+                 1.PETS<br>
+                 2.PLANTS <br>
+                 3.PETS-ACCESSORIES<br>
+                 4.PLANTS-ACCESSORIES<br>
+                 5.PETS-SPA & PETS-CARE<br>
+                 6.PLANTS-CARE<br>
+                 7.ADD-YOUR PRODUCTS
+             </P>
+             <h2>
+                 COSTOMER POLICIES
+             </h2>
+             <P>
+                 CONTACT US <br>
+                 TERMS OF USE <br>
+                 TRACK ORDERS <br>
+                 SHIPPING <br>
+                 RETURNS <br>
+                 PRIVACY POLICY
+             </P>
+             <h2>
+                 IN CASE OF ANY CONCERN, CONTACT US
+             </h2>
+             <a href="mailto:webmaster@example.com">@2022 www.greenhousepetzone.com</a><br>
+             <h3> @2022 www.greenhousepetzone.com</h3>
+             <h3>telephone:+91-oo-oooooooo</h3><br>
+             <h4> Green House Pet Zone is a global platform that empowers entrepreneurs and small businesses with shops and homes by providing full stack technology that increases earnings and eases operations. Bringing affordable and trusted accommodation that people can sell & buy easily.</h4>
+             <a href=""><img src="Instagram-logo-transparent-PNG.png" height="70px"width="70" alt=""></a>
+             <a href=""><img src="fb_icon_325x325.png" height="70px"width="70" alt=""></a>
+             <a href=""><img src="twitter-icon-transparent-11549680383mmzgiol88v.png" height="70px"width="70" alt=""></a>
+            </center>
+        
+         
+</body>
+</html>

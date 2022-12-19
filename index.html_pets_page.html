@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS_PAGE</title>
+</head>
+<body>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        font-family:"poppins",sans-serif ;
+        box-sizing: border-box;
+        }
+        .header{
+            
+          height: 100vh;
+          width: 100%;
+          padding:0 8% ;
+          background-image: url("Untitled design.png");
+          position: relative;
+        }
+        .header img{
+            border-style: solid;
+            border-color: orangered;
+        }
+
+        .body{
+            background-color: cadetblue;
+        }
+        nav{
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .logo{
+             width: 140px;
+        }
+        .nav-links{
+        padding: 28px 0;
+        }
+        .nav-link li{
+        display: inline-block;
+        margin: 0 15px;
+        }
+        .nav-link li a{
+                text-decoration:none ;
+            color:black;
+           padding: 5px 0;
+           position: relative;
+        }
+        .nav-link li a::after{
+           content: '';
+           background:#ff3d00 ;
+           width: 0%;
+           height: 2px;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           transition: width 0.5s;
+        }
+        .nav-link li a:hover::after{
+           width: 100%
+        }
+        .btn{
+        background:orangered;
+        color: #fff;
+        padding: 10px 30px;
+         border-radius: 3px;
+        cursor:pointer;
+        }
+        .content{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              width:90% ;
+              max-width: 900px;
+              transform:translate(-50%, -50%) ;
+              text-align: center;
+              color:transparent;
+        }
+        .content h1{
+        font-size:65px ;
+        font-weight:600px ;
+        margin-bottom:40px ;
+        }
+        .content form {
+           background:transparent;
+           border: solid 5px;
+           padding: 10px;
+           border-radius: 8px;
+           display: flex;
+        }
+        .content form input{
+            flex: 1;
+           border: none;
+           outline: none;
+           padding: 0  40px;
+           font-size: 20px;
+        }
+        .content form button{
+        background: #ff3d00;
+        color: #fff;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 60px;
+        }
+        .code{
+            margin-top: 615px;
+            background-image: url("gardening\ boy.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-color: cadetblue;
+        }
+        .marquee{
+            margin-top: 10px;
+        }
+        .marquee1{
+            margin-top: 2px 30px 40px;
+        }
+        .code1 img{
+     margin-top: 600px;
+    height: 170px;
+    width: 170px;
+  
+}
+        .hover:hover{
+            margin: 50px;
+            margin-bottom: 50px;
+            background-color: lightsteelblue;
+            font-size: 50px;
+        }
+        .hover:hover1{
+            margin: 50px;
+            margin-bottom: 50px;
+            background-color: lightsteelblue;
+            font-size: 50px;
+        }
+        
+            </style>
+            <div class ="header">
+        <nav>
+      <img src="Untitled_design-removebg-preview.png" class="logo">
+       <ul class="nav-link">
+<li><a href="index.html">HOME</a></li>
+<li><a href="">NOTIFICATION</a></li>
+<li><a href="basket.html">BASKET</a></li>
+<li><a href="favourite page.html">FAVOURITES</a></li>
+<li><a href="reviews pages.html">REVIEWS</a></li>
+<li><a href="CONTACT US page.html">CONTACT</a></li>
+<li><a href="account page.html">ACCOUNT</a></li>
+<li><a href="login page.html"> SIGN UP</li></a> 
+    </ul>
+    </nav>
+         <div class="content">
+        <h1> GREEN HOUSE PET ZONE</h1>
+        <form>
+            <input type="text" placeholder="SEARCH FOR PRODUCTS">
+        <button type="SUBMIT">SEARCH</button>
+        </form>
+             </div>
+             <div class="code1">
+             <a href="dog_shopping page.html"target="black"><img src="1-removebg-preview (1).png" ></a>
+             <a href="cat_shopping_page.html"target="black"><img src="2-removebg-preview.png" ></a>
+             <a href="birds shopping page.html"target="black"><img src="00-removebg-preview.png" ></a>
+             <a href="rates page.html"target="black"><img src="5-removebg-preview (1).png" ></a>
+             <a href="rabbit pages.html"target="black"> <img src="6-removebg-preview.png" ></a>
+             <a href="fish page.html"target="black"><img src="3-removebg-preview.png" ></a>
+             <a href="exotic pets pages.html"target="black"><img src="8-removebg-preview.png" >
+             </div>
+             <div class="scrollimg">
+                <marquee behavior="scroll">
+                    <img src="how-to-train-golden-retriever-puppy.jpg" height="300" width="360">
+                 <img src="dogs-by-country-of-origin-indian-dog-breeds-vector-20847975.jpg" height="300" width="360">
+                 <img src="9670ef8f5d5095a6ac322726cb877140--types-of-small-dogs-cute-small-dogs.jpg" height="300" width="360">
+                 <img src="breed-group-poster.png" height="300" width="360">
+                 <img src="Dog-Breed-Identification-Chart.jpg" height="300" width="360">
+                 <img src="084059a9ff88fa3b0d804756531fa266.jpg" height="300" width="360">
+                 <img src="cat-face-690x325.jpg" height="300" width="360">
+                 <img src="cats.jpg" height="300" width="360">
+                 <img src="set-portraits-cats-breeds-2-vector-30932471.jpg" height="300" width="360">
+                 <img src="13f25745b8c2ec87f61e7b907e5e237c.jpg" height="300" width="360">
+                 <img src="31170eba9413c82b922539c594763bfe--in-love-true-love.jpg"height="300" width="360">
+                 <img src="main-qimg-91a7a6e7b7f71cd3cd601b11ca4c810c-lq.jpeg" height="300" width="360">
+                 <img src="peruvian-guinea-pig.jpg" height="300" width="360">
+                 <img src="GettyImages-678888931-51cc783946684772b536f6346827d70a.jpg" height="300" width="360">
+                 <img src="Hamster-Breeds.jpg" height="300" width="360"> 
+                 <img src="rat-breeds-icon-set-flat-style-isolated-on-white-vector-17029312.jpg" height="300" width="360">
+                 <img src="istockphoto-1215084021-170667a.jpg" height="300" width="360">
+                 <img src="unusual-freshwater-aquarium-fish-breeds-icon-set-flat-style-isolated-on-white-create-own-infographic-about-pet-vector-illustration-W3PNDB.jpg" height="300" width="360">
+                 <img src="freshwater-aquarium-fishes-breeds-icon-set-flat-style-isolated-o-white-loaches-gobies-killifishes-create-own-infographic-98917699.jpg" height="300" width="360">
+                 <img src="freshwater-fish-collection-different-species-72954805.jpg" height="300" width="360">
+                 <img src="pet-rabbit-mini-lop-1562106249.jpg" height="300" width="360">
+                 <img src="rabbit-breeds.jpg" height="300" width="360">
+                 <img src="7a768780be219a8ec67a877d7cafd25a.jpg" height="300" width="360">
+                 <img src="axolotl-825x550.jpg" height="300" width="360">
+                 <img src="2ach01r-1-alamy-sugar-glider-crop.jpg" height="300" width="360">
+                 <img src="asset-v1_KUx+Ku035+2018_T1+type@asset+block@1.jpg" height="300" width="360">
+                 <img src="bearded_dragon_01.jpg" height="300" width="360">
+                 <img src="girl-with-pet-snake.jpg" height="300" width="360">
+                 <img src="palm-of-a-hand-containing-a-large-black-tarantula-with-orange-spots-best-exotic-pets-mexican-redknee-tarantula.jpg" height="300" width="360">
+                 <img src="PetWatch1.jpg" height="300" width="360">
+                 <img src="shutterstock_1043006710.jpg" height="300" width="360">
+                </marquee>
+                  </div>
+                  <div class="hover">
+                  <center><h2> EXOTIC PETS</h2></center></div>
+                  <img src="ex1.png" alt="" srcset="" height="370px"width="310px">
+                  <img src="ex2.png" alt="" srcset=""height="370px"width="310px">
+                  <img src="ex3.png" alt="" srcset=""height="370px"width="310px">
+                  <img src="ex4.png" alt="" srcset=""height="370px"width="310px">
+                  <img src="ex5.png" alt="" srcset=""height="370px"width="310px">
+                 <div class="hover1">
+                 <center><h3>TRENDING PETS 2022</h3></center></div>
+                  <img src="tr1.png" alt="" height="370px" width="310px">
+                  <img src="tr2.png" alt="" height="370px" width="310px">
+                  <img src="tr3.png" alt="" height="370px" width="310px">
+                  <img src="tr4.png" alt="" height="370px" width="310px">
+                  <img src="tr5.png" alt="" height="370px" width="310px">
+                  <img src="tr6.png" alt="" height="370px" width="310px">
+                  <br>
+                  <br>
+                  <hr>
+                  <center>
+                  <h2> ONLINE_SHOPPING</h2>
+                  <P>
+                     1.PETS<br>
+                     2.PLANTS <br>
+                     3.PETS-ACCESSORIES<br>
+                     4.PLANTS-ACCESSORIES<br>
+                     5.PETS-SPA & PETS-CARE<br>
+                     6.PLANTS-CARE<br>
+                     7.ADD-YOUR PRODUCTS
+                 </P>
+                 <h2>
+                     COSTOMER POLICIES
+                 </h2>
+                 <P>
+                     CONTACT US <br>
+                     TERMS OF USE <br>
+                     TRACK ORDERS <br>
+                     SHIPPING <br>
+                     RETURNS <br>
+                     PRIVACY POLICY
+                 </P>
+                 <h2>
+                     IN CASE OF ANY CONCERN, CONTACT US
+                 </h2>
+                 <a href="mailto:webmaster@example.com">@2022 www.greenhousepetzone.com</a><br>
+                 <h3> @2022 www.greenhousepetzone.com</h3>
+                 <h3>telephone:+91-oo-oooooooo</h3><br>
+                 <h4> Green House Pet Zone is a global platform that empowers entrepreneurs and small businesses with shops and homes by providing full stack technology that increases earnings and eases operations. Bringing affordable and trusted accommodation that people can sell & buy easily.</h4>
+                 <a href=""><img src="Instagram-logo-transparent-PNG.png" height="70px"width="70" alt=""></a>
+                 <a href=""><img src="fb_icon_325x325.png" height="70px"width="70" alt=""></a>
+                 <a href=""><img src="twitter-icon-transparent-11549680383mmzgiol88v.png" height="70px"width="70" alt=""></a>
+                </center>
+            
+               
+</body>
+</html>

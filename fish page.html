@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS_PAGE</title>
+    <style>
+        body{
+            background-color: lightpink;
+              
+              }
+          </style>
+</head>
+<body>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        font-family:"poppins",sans-serif ;
+        box-sizing: border-box;
+        }
+        .header{
+            
+          height: 100vh;
+          width: 100%;
+          padding:0 8% ;
+          position: relative;
+        }
+        .header img{
+            border-style: solid;
+            border-color: orangered;
+        }
+
+        .body{
+            background-color: cadetblue;
+        }
+        nav{
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .logo{
+             width: 140px;
+        }
+        .nav-links{
+        padding: 28px 0;
+        }
+        .nav-link li{
+        display: inline-block;
+        margin: 0 15px;
+        }
+        .nav-link li a{
+                text-decoration:none ;
+            color:black;
+           padding: 5px 0;
+           position: relative;
+        }
+        .nav-link li a::after{
+           content: '';
+           background:#ff3d00 ;
+           width: 0%;
+           height: 2px;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           transition: width 0.5s;
+        }
+        .nav-link li a:hover::after{
+           width: 100%
+        }
+        .btn{
+        background:orangered;
+        color: #fff;
+        padding: 10px 30px;
+         border-radius: 3px;
+        cursor:pointer;
+        }
+        .content{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              width:90% ;
+              max-width: 900px;
+              transform:translate(-50%, -50%) ;
+              text-align: center;
+              color:transparent;
+        }
+        .content h1{
+        font-size:65px ;
+        font-weight:600px ;
+        margin-bottom:40px ;
+        }
+        .content form {
+           background:transparent;
+           border: solid 5px;
+           padding: 10px;
+           border-radius: 8px;
+           display: flex;
+        }
+        .content form input{
+            flex: 1;
+           border: none;
+           outline: none;
+           padding: 0  40px;
+           font-size: 20px;
+        }
+        .content form button{
+        background: #ff3d00;
+        color: #fff;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 60px;
+        }
+        .code{
+            margin-top: 615px;
+            background-image: url("gardening\ boy.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-color: cadetblue;
+        }
+        .marquee{
+            margin-top: 10px;
+        }
+        .marquee1{
+            margin-top: 2px 30px 40px;
+        }
+        .col5{ 
+        margin-left: 200px;
+            margin-right: 200px; 
+               text-align: center;
+               padding-top: 30px;
+        }     
+            </style>
+           <div class ="header">
+            <nav>
+          <img src="Untitled_design-removebg-preview.png" class="logo">
+           <ul class="nav-link">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="">NOTIFICATION</a></li>
+    <li><a href="basket.html">BASKET</a></li>
+    <li><a href="favourite page.html">FAVOURITES</a></li>
+    <li><a href="reviews pages.html">REVIEWS</a></li>
+    <li><a href="CONTACT US page.html">CONTACT</a></li>
+    <li><a href="account page.html">ACCOUNT</a></li>
+    <li><a href="login page.html"> SIGN UP</li></a> 
+        </ul>
+        </nav>
+         <div class="content">
+        <h1> GREEN HOUSE PET ZONE</h1>
+             </div>     
+                <div class="col5">
+                <h1>Koi</h1>
+                <img src="Koi-swimming.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Koi or more specifically nishikigoi, are colored varieties of the Amur carp that are kept for decorative purposes in outdoor koi ponds or water gardens. Koi is an informal name for the colored variants of C. rubrofuscus kept for ornamental purposes. Wikipedia
+                    Higher classification: Common carp
+                    Lifespan: 25 – 35 years
+                    Rank: Animal breed
+                    Scientific name: Cyprinus rubrofuscus
+                    Variety: C. r. var. "koi"
+                    Family: Cyprinidae
+                    Order: Cypriniformes</p>
+            </div>
+            <div class="col5">
+                <h1>Butterfly telescope goldfish</h1>
+                <img src="f8f66a147a0d04023a968ec9c9d94468 (1).jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Butterfly telescope goldfish is a variant of telescope goldfish that is distinguished by the butterfly-shaped caudal fins when viewed from above. It is a variety that has only recently been deemed a major lineage by a few published works. Wikipedia
+                    Higher classification: Goldfish
+                    Rank: Animal breed
+                    Scientific name: Carassius auratus
+                    </p>
+            </div> 
+            <div class="col5">
+                <h1>Bubble Eye
+                </h1>
+                <img src="Bubble-eye-goldfish.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Bubble Eye is a small variety of fancy goldfish with upward-pointing eyes that are accompanied by two large fluid-filled sacs. It is a dorsal-less fish – good specimens will have a clean back and eye bubbles that match in color and size. Wikipedia
+                    Higher classification: Goldfish
+                    Rank: Animal breed
+                    Scientific name: Carassius auratus</p>
+            </div>
+             <div class="col5">
+                <h1>Panda corydoras</h1>
+                <img src="1730cd410136bb42f93bd0c87f7d6bb3.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Corydoras panda is a species of catfish belonging to the genus Corydoras, of the family Callichthyidae, and is a native member of the riverine fauna of South America. Wikipedia
+                    Scientific name: Corydoras panda
+                    Family: Callichthyidae</p>
+            </div> 
+            <div class="col5">
+                <h1>Dwarf pufferfish
+                    </h1>
+                <img src="358_the_dwarf_puffer_a_pleasant_little_surprise.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The dwarf pufferfish, also known as the Malabar pufferfish, pygmy pufferfish, or pea pufferfish, is a small freshwater pufferfish endemic to Kerala and southern Karnataka in Southwest India. They are popular in aquaria for their bright colours and small size. Wikipedia
+                    Scientific name: Carinotetraodon travancoricus
+                    Conservation status: Vulnerable (Population decreasing) Encyclopedia of Life
+                    Family: Tetraodontidae
+                    Kingdom: Animalia
+                    Order: Tetraodontiformes</p>
+            </div>
+             <div class="col5">
+                <h1>Tiger barb</h1>
+                <img src="tiger-barb-lifespan.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The tiger barb or Sumatra barb, is a species of tropical cyprinid fish. The natural geographic range reportedly extends throughout the Malay Peninsula, Sumatra and Borneo in Indonesia, with unsubstantiated sightings reported in Cambodia. Wikipedia
+                    Scientific name: Puntigrus tetrazona
+                    Family: Cyprinidae
+                    Kingdom: Animalia
+                    Order: Cypriniformes
+                    Phylum: Chordata</p>
+            </div>
+             <div class="col5">
+                <h1>Dwarf Gourami</h1>
+                <img src="dwarfgourami_grande.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The dwarf gourami is a species of gourami native to South Asia. Wikipedia
+                    Scientific name: Trichogaster lalius
+                    Family: Osphronemidae
+                    Order: Anabantiformes</p>
+            </div> 
+            <div class="col5">
+                <h1>Betta Fish</h1>
+                <img src="siamese-fighting-fish-9.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Siamese fighting fish, commonly known as the betta, is a freshwater fish native to Southeast Asia, namely Cambodia, Laos, Myanmar, Malaysia, Indonesia, Thailand, and Vietnam. Wikipedia
+                    Lifespan: 2 – 5 years (In captivity)
+                    Clutch size: 100 – 500
+                    Conservation status: Vulnerable (Population decreasing) Encyclopedia of Life
+                    Scientific name: Betta splendens
+                    Higher classification: Bettas
+                    Family: Osphronemidae
+                    Kingdom: Animalia</p>
+            </div>
+             <div class="col5">
+                <h1>Hachetfish</h1>
+                <img src="hatchet-1-1-1-1-1-1-1-1-1-1.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The freshwater hatchetfish are a family, Gasteropelecidae, of ray-finned fish from South and Central America. The common hatchetfish is the most popular member among fish keeping hobbyists. The family includes three genera: Carnegiella, Gasteropelecus, and Thoracocharax. Wikipedia
+                    Scientific name: Gasteropelecidae</p>
+            </div>
+             <div class="col5">
+                <h1>
+                    Black Phantom Tetra</h1>
+                <img src="black-phantom-tetra-500x500.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Black phantom tetra is an egg-scattering species. To stimulate breeding, pH is lowered to about 5.5-6, the general hardness of the water is also reduced below four degrees. </p>
+            </div> 
+            <div class="col5">
+                <h1>Midas cichlid</h1>
+                <img src="red-devil-cichlid-1024x644.jpeg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Amphilophus citrinellus is a large cichlid fish endemic to the San Juan River and adjacent watersheds in Costa Rica and Nicaragua. In the aquarium trade A. citrinellus is often sold under the trade name of Midas cichlid. Wikipedia
+                    Scientific name: Amphilophus citrinellus
+                    Found in: San Juan River
+                    Higher classification: Amphilophus
+                    Family: Cichlidae
+                    Kingdom: Animalia
+                    Order: Cichliformes
+                    Phylum: Chordata</p>
+            </div> 
+            <div class="col5">
+                <h1>Frontosa</h1>
+                <img src="Frontosa_Cichlid.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Cyphotilapia frontosa, also called the front cichlid and frontosa, is an east African species of fish endemic to Lake Tanganyika. The genus name is a combination of the Ancient Greek "cypho-", meaning "curved", and tilapia, which means "fish" in a local dialect. Wikipedia
+                    Conservation status: Least Concern Encyclopedia of Life
+                    Class: Actinopterygii
+                    Family: Cichlidae
+                    Genus: Cyphotilapia
+                    Species: C. frontosa</p>
+            </div>
+             <div class="col5">
+                <h1>Catfish</h1>
+                <img src="catfish.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Catfish are a diverse group of ray-finned fish. Named for their prominent barbels, which resemble a cat's whiskers, catfish range in size and behavior from the three largest species alive, the Mekong ... Wikipedia
+                    Scientific name: Siluriformes
+                    Lifespan: Wels catfish: 60 years
+                    Higher classification: Ostariophysi
+                    Rank: Order
+                    Kingdom: Animalia
+                    Order: Siluriformes; G. Cuvier, 1817
+                    Sting</p>
+            </div>
+             <div class="col5">
+                <h1>Discus</h1>
+                <img src="b415fb9f0e358a41f49221a2b25939f6.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Symphysodon, colloquially known as discus, is a genus of cichlids native to the Amazon river basin in South America. Due to their distinctive shape, behavior, and bright colors and patterns, discus are popular as freshwater aquarium fish, and their aquaculture in several countries in Asia is a major industry. Wikipedia
+                    Scientific name: Symphysodon
+                    Family: Cichlidae
+                    Kingdom: Animalia
+                    Order: Cichliformes
+                    Phylum: Chordata
+                    Tribe: Heroini</p>
+            </div>
+            <br>
+            <hr>
+            <center>
+            <div class="hover1">
+               <h2> ONLINE_SHOPPING</h2>
+               <P>
+                  1.PETS<br>
+                  2.PLANTS <br>
+                  3.PETS-ACCESSORIES<br>
+                  4.PLANTS-ACCESSORIES<br>
+                  5.PETS-SPA & PETS-CARE<br>
+                  6.PLANTS-CARE<br>
+                  7.ADD-YOUR PRODUCTS
+              </P>
+              <h2>
+                  COSTOMER POLICIES
+              </h2>
+              <P>
+                  CONTACT US <br>
+                  TERMS OF USE <br>
+                  TRACK ORDERS <br>
+                  SHIPPING <br>
+                  RETURNS <br>
+                  PRIVACY POLICY
+              </P>
+              <h2>
+                  IN CASE OF ANY CONCERN, CONTACT US
+              </h2>
+              <a href="mailto:webmaster@example.com">@2022 www.greenhousepetzone.com</a><br>
+              <h3> @2022 www.greenhousepetzone.com</h3>
+              <h3>telephone:+91-oo-oooooooo</h3><br>
+              <h4> Green House Pet Zone is a global platform that empowers entrepreneurs and small businesses with shops and homes by providing full stack technology that increases earnings and eases operations. Bringing affordable and trusted accommodation that people can sell & buy easily.</h4>
+              <a href=""><img src="Instagram-logo-transparent-PNG.png" height="70px"width="70" alt=""></a>
+              <a href=""><img src="fb_icon_325x325.png" height="70px"width="70" alt=""></a>
+              <a href=""><img src="twitter-icon-transparent-11549680383mmzgiol88v.png" height="70px"width="70" alt=""></a>
+           </center>
+         
+</body>
+</html>

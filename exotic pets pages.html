@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS_PAGE</title>
+    <style>
+        body{
+            background-color: lightcyan;
+        }
+    </style>
+</head>
+<body>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        font-family:"poppins",sans-serif ;
+        box-sizing: border-box;
+        }
+        .header{
+            
+          height: 100vh;
+          width: 100%;
+          padding:0 8% ;
+          position: relative;
+        }
+        .header img{
+            border-style: solid;
+            border-color: orangered;
+        }
+
+        .body{
+            background-color: cadetblue;
+        }
+        nav{
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .logo{
+             width: 140px;
+        }
+        .nav-links{
+        padding: 28px 0;
+        }
+        .nav-link li{
+        display: inline-block;
+        margin: 0 15px;
+        }
+        .nav-link li a{
+                text-decoration:none ;
+            color:black;
+           padding: 5px 0;
+           position: relative;
+        }
+        .nav-link li a::after{
+           content: '';
+           background:#ff3d00 ;
+           width: 0%;
+           height: 2px;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           transition: width 0.5s;
+        }
+        .nav-link li a:hover::after{
+           width: 100%
+        }
+        .btn{
+        background:orangered;
+        color: #fff;
+        padding: 10px 30px;
+         border-radius: 3px;
+        cursor:pointer;
+        }
+        .content{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              width:90% ;
+              max-width: 900px;
+              transform:translate(-50%, -50%) ;
+              text-align: center;
+              color:transparent;
+        }
+        .content h1{
+        font-size:65px ;
+        font-weight:600px ;
+        margin-bottom:40px ;
+        }
+        .content form {
+           background:transparent;
+           border: solid 5px;
+           padding: 10px;
+           border-radius: 8px;
+           display: flex;
+        }
+        .content form input{
+            flex: 1;
+           border: none;
+           outline: none;
+           padding: 0  40px;
+           font-size: 20px;
+        }
+        .content form button{
+        background: #ff3d00;
+        color: #fff;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 60px;
+        }
+        .code{
+            margin-top: 615px;
+            background-image: url("gardening\ boy.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-color: cadetblue;
+        }
+        .marquee{
+            margin-top: 10px;
+        }
+        .marquee1{
+            margin-top: 2px 30px 40px;
+        }
+        .col6{ margin-left: 200px;
+            margin-right: 200px; 
+               text-align: center;
+               padding-top: 50px;
+    }        
+            </style>
+            <div class ="header">
+                <nav>
+              <img src="Untitled_design-removebg-preview.png" class="logo">
+               <ul class="nav-link">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="">NOTIFICATION</a></li>
+        <li><a href="basket.html">BASKET</a></li>
+        <li><a href="favourite page.html">FAVOURITES</a></li>
+        <li><a href="reviews pages.html">REVIEWS</a></li>
+        <li><a href="CONTACT US page.html">CONTACT</a></li>
+        <li><a href="account page.html">ACCOUNT</a></li>
+        <li><a href="login page.html"> SIGN UP</li></a> 
+            </ul>
+            </nav>
+         <div class="content">
+        <h1> GREEN HOUSE PET ZONE</h1>
+             </div>     
+            <div class="col6">
+                <h1>Flying squirrels pet</h1>
+                <img src="flying-squirrel.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>If cared for properly, flying squirrels can be affectionate pets. The first few weeks after bringing them home is the most important. Hand feeding and daily handling will help them bond with you.</p>
+            </div>
+            
+            <div class="col6">
+                <h1>Savannah Cats</h1>
+                <img src="image.jfif" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Savannah is a hybrid cat breed. It results from a cross between a serval and a domestic cat. This hybridization typically produces large and lanky offspring with vibrant spotted coats. Wikipedia
+                    Origin: United States
+                    Higher classification: Cat
+                    Rank: Hybrid</p>
+            </div>
+            <div class="col6">
+                <h1>Fennec Fox</h1>
+                <img src="271826-2000x1334-sitting-fennec-fox.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The fennec fox is a small crepuscular fox native to the deserts of North Africa, ranging from Western Sahara to the Sinai Peninsula. Its most distinctive feature is its unusually large ears, which serve to dissipate heat and listen for underground prey. The fennec is the smallest species of fox. Wikipedia
+                    Height: 20 cm (Adult)
+                    Scientific name: Vulpes zerda
+                    Conservation status: Least Concern Encyclopedia of Life
+                    Length: 30 – 41 cm (Adult, Without Tail)
+                    Mass: 0.68 – 1.6 kg (Adult)
+                    Trophic level: Omnivorous Encyclopedia of Life
+                    Family: Canidae</p>
+            </div>
+            <div class="col6">
+                <h1>Bearded Dragon Predators and Threats</h1>
+                <img src="bearded_dragon_substrate.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Snakes, birds, dingoes, goannas and crocodiles are all predators of a bearded dragon.</p>
+            </div>
+            <div class="col6">
+                <h1>Ball python</h1>
+                <img src="Pied-Ball-Python.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Ball python</p>
+            </div>
+            <div class="col6">
+                <h1>Ferret as a pet</h1>
+                <img src="ferret - pet.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Ferrets are members of the weasel family that have been domesticated for over 2000 years. They are highly intelligent and social pets and, even though they seem just like a small, easy to care for a pocket pet, they are a big responsibility and often require just as much care as a cat or dog, if not more! ABOUT FERRETS.</p>
+            </div>
+            <div class="col6">
+                <h1>Smith's Redknee Tarantula
+                    Spider
+                    </h1>
+                <img src="Brachypelma_smithi_2009_G09.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>About
+                    Brachypelma smithi is a species of spider in the family Theraphosidae native to Mexico. It has been confused with Brachypelma hamorii; both have been called Mexican redknee tarantulas. Mexican redknee tarantulas are a popular choice as pets among tarantula keepers. Wikipedia
+                    Conservation status: Near Threatened Encyclopedia of Life
+                    Class: Arachnida
+                    Genus: Brachypelma
+                    Kingdom: Animalia
+                    Phylum: Arthropoda
+                    Species: B. smithi
+                    Subphylum: Chelicerata</p>
+            </div>
+            <div class="col6">
+                <h1>lizard pet</h1>
+                <img src="01fcc7430ff1c8818e257dd51df5abf2.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Each lizard will have its own temperament and personality. Some lizards are outgoing and loved to be handled every day. Others are shy and prefer being in their cages. You should also know that most lizards can live for a decade or two, so make sure your lizard fits your lifestyle and handling abilities.</p>
+            </div>   <div class="col6">
+                <h1>Iguanas
+                    Reptiles
+                    </h1>
+                <img src="220px-Male_Green_Iguana_Belize.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Iguana is a genus of herbivorous lizards that are native to tropical areas of Mexico, Central America, South America, and the Caribbean. Wikipedia
+                    Clutch size: Green iguana: 20 – 71, Marine iguana: 1 – 6, Blue iguana: 1 – 21
+                    Scientific name: Iguana
+                    Rank: Genus
+                    Higher classification: Iguanids
+                    Family: Iguanidae
+                    Kingdom: Animalia</p>
+            </div>  
+             <div class="col6">
+                <h1>gecko lizard</h1>
+                <img src="leopard-geckos-1236911-01-20aac80501f241f593afcaa7c835de33.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Geckos are small, mostly carnivorous lizards that have a wide distribution, found on every continent except Antarctica. Belonging to the infraorder Gekkota, geckos are found in warm climates throughout the world. They range from 1.6 to 60 centimetres. Wikipedia
+                    Lifespan: Leopard gecko: 15 years
+                    Clutch size: Texas banded gecko: 1 – 2
+                    Length: Sphaerodactylus ariasae: 1.6 – 1.8 cm
+                    Clade: Gekkonomorpha
+                    Class: Reptilia
+                    Infraorder: Gekkota; Cuvier, 1817</p>
+            </div>  
+             <div class="col6">
+                <h1>Peters's elephantnose fish
+                </h1>
+                <img src="Elephant-nose-fish.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>Peters's elephant-nose fish is an African freshwater elephantfish in the genus Gnathonemus. Other names in English include elephantnose fish, long-nosed elephant fish, and Ubangi mormyrid, after the Ubangi River. The Latin name petersii is probably for the German naturalist Wilhelm Peters. Wikipedia
+                    Conservation status: Least Concern Encyclopedia of Life
+                    Scientific name: Gnathonemus petersii
+                    Higher classification: Gnathonemus
+                    Rank: Species
+                    Family: Mormyridae
+                    Kingdom: Animalia
+                    Order: Osteoglossiformes</p>
+            </div>
+            <div class="col6">
+                <h1>Freshwater African Butterflyfish</h1>
+                <img src="c740eeac76becc1426e9f039ce8447e7.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The freshwater butterflyfish or African butterflyfish, Pantodon buchholzi, is the only extant species in the family Pantodontidae within the order Osteoglossiformes. It is not closely related to saltwater butterflyfishes. Wikipedia
+                    Family: Pantodontidae
+                    Order: Osteoglossiformes
+                    Species: P. buchholzi</p>
+            </div> <div class="col6">
+                <h1>Fire Eel</h1>
+                <img src="fire-eel.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The fire eel is a relatively large species of spiny eel. This omnivorous freshwater fish is native to in Southeast Asia but also found in the aquarium trade. Although it has declined locally because of this trade and overfishing for food, it remains common overall. Wikipedia
+                    Scientific name: Mastacembelus erythrotaenia
+                    Family: Mastacembelidae
+                    </p>
+            </div> 
+            <center>
+                <br>
+                <hr>
+             <div class="hover1">
+              <h2> ONLINE_SHOPPING</h2>
+              <P>
+                 1.PETS<br>
+                 2.PLANTS <br>
+                 3.PETS-ACCESSORIES<br>
+                 4.PLANTS-ACCESSORIES<br>
+                 5.PETS-SPA & PETS-CARE<br>
+                 6.PLANTS-CARE<br>
+                 7.ADD-YOUR PRODUCTS
+             </P>
+             <h2>
+                 COSTOMER POLICIES
+             </h2>
+             <P>
+                 CONTACT US <br>
+                 TERMS OF USE <br>
+                 TRACK ORDERS <br>
+                 SHIPPING <br>
+                 RETURNS <br>
+                 PRIVACY POLICY
+             </P>
+             <h2>
+                 IN CASE OF ANY CONCERN, CONTACT US
+             </h2>
+             <a href="mailto:webmaster@example.com">@2022 www.greenhousepetzone.com</a><br>
+             <h3> @2022 www.greenhousepetzone.com</h3>
+             <h3>telephone:+91-oo-oooooooo</h3><br>
+             <h4> Green House Pet Zone is a global platform that empowers entrepreneurs and small businesses with shops and homes by providing full stack technology that increases earnings and eases operations. Bringing affordable and trusted accommodation that people can sell & buy easily.</h4>
+             <a href=""><img src="Instagram-logo-transparent-PNG.png" height="70px"width="70" alt=""></a>
+             <a href=""><img src="fb_icon_325x325.png" height="70px"width="70" alt=""></a>
+             <a href=""><img src="twitter-icon-transparent-11549680383mmzgiol88v.png" height="70px"width="70" alt=""></a>
+            </center>
+        
+         
+</body>
+</html>

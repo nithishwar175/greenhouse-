@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS_PAGE</title>
+      <style>
+    body{
+        background-color: lightcyan;
+          
+          }
+      </style>
+</head>
+<body>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        font-family:"poppins",sans-serif ;
+        box-sizing: border-box;
+        }
+        .header{
+            
+          height: 100vh;
+          width: 100%;
+          padding:0 8% ;
+          position: relative;
+        }
+        .header img{
+            border-style: solid;
+            border-color: orangered;
+        }
+
+        .body{
+            background-color: cadetblue;
+        }
+        nav{
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .logo{
+             width: 140px;
+        }
+        .nav-links{
+        padding: 28px 0;
+        }
+        .nav-link li{
+        display: inline-block;
+        margin: 0 15px;
+        }
+        .nav-link li a{
+                text-decoration:none ;
+            color:black;
+           padding: 5px 0;
+           position: relative;
+        }
+        .nav-link li a::after{
+           content: '';
+           background:#ff3d00 ;
+           width: 0%;
+           height: 2px;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           transition: width 0.5s;
+        }
+        .nav-link li a:hover::after{
+           width: 100%
+        }
+        .btn{
+        background:orangered;
+        color: #fff;
+        padding: 10px 30px;
+         border-radius: 3px;
+        cursor:pointer;
+        }
+        .content{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              width:90% ;
+              max-width: 900px;
+              transform:translate(-50%, -50%) ;
+              text-align: center;
+              color:transparent;
+        }
+        .content h1{
+        font-size:65px ;
+        font-weight:600px ;
+        margin-bottom:40px ;
+        }
+        .content form {
+           background:transparent;
+           border: solid 5px;
+           padding: 10px;
+           border-radius: 8px;
+           display: flex;
+        }
+        .content form input{
+            flex: 1;
+           border: none;
+           outline: none;
+           padding: 0  40px;
+           font-size: 20px;
+        }
+        .content form button{
+        background: #ff3d00;
+        color: #fff;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 60px;
+        }
+        .code{
+            margin-top: 615px;
+            background-image: url("gardening\ boy.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-color: cadetblue;
+        }
+        .marquee{
+            margin-top: 10px;
+        }
+        .marquee1{
+            margin-top: 2px 30px 40px;
+        }   
+    .col1{ 
+        margin-left: 200px;
+            margin-right: 200px; 
+               text-align: center;
+               padding-top: 30px;
+        }     
+            </style>
+             <div class ="header">
+                <nav>
+              <img src="Untitled_design-removebg-preview.png" class="logo">
+               <ul class="nav-link">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="">NOTIFICATION</a></li>
+        <li><a href="basket.html">BASKET</a></li>
+        <li><a href="favourite page.html">FAVOURITES</a></li>
+        <li><a href="reviews pages.html">REVIEWS</a></li>
+        <li><a href="CONTACT US page.html">CONTACT</a></li>
+        <li><a href="account page.html">ACCOUNT</a></li>
+        <li><a href="login page.html"> SIGN UP</li></a> 
+            </ul>
+            </nav>
+         <div class="content">
+        <h1> GREEN HOUSE PET ZONE</h1>
+             </div>     
+                <div class="col1">
+                <h1>Siamese cat</h1>
+                <img src="090ef8a1362700b51ea547eba7d5ebe1--siamese-kittens-cute-kittens.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Siamese cat is one of the first distinctly recognized breeds of Asian cat. Derived from the Wichianmat landrace, one of several varieties of cat native to Thailand, the original Siamese became one of the most popular breeds in Europe and North America in the 19th century. Wikipedia
+                    Origin: Thailand
+                    Common nicknames: Meezer, Mese</p>
+            </div>
+            <div class="col1">
+                <h1>British Shorthair</h1>
+                <img src="e10b2318c56218f4f75591457a0c4b8f.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The British Shorthair is the pedigreed version of the traditional British domestic cat, with a distinctively stocky body, dense coat, and broad face. The most familiar colour variant is the "British Blue", with a solid grey-blue coat, orange eyes, and a medium-sized tail. Wikipedia
+                    Origin: United Kingdom
+                    Other names: British Blue (legacy)
+                    TICA: standard</p>
+            </div>
+            <div class="col1">
+                <h1>Maine Coon</h1>
+                <img src="image.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Maine Coon is a large domesticated cat breed. It is one of the oldest natural breeds in North America. The breed originated in the U.S. state of Maine, where it is the official state cat. Wikipedia
+                    Mass: 5.9 – 8.2 kg (Male, Adult), 3.6 – 5.4 kg (Female, Adult)
+                    Origin: Maine, United States
+                    Length: 48 – 100 cm (Adult, Nose to tail)
+                    Rank: Animal breed
+                    Common nicknames: Gentle giants
+                    Other names: Coon Cat; Maine Cat; Maine Shag; American Longhair; American Coon Cat; American Forest Cat</p>
+            </div>
+            <div class="col1">
+                <h1>Persian cat</h1>
+                <img src="persian-kitten.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Persian cat, also known as the Persian longhair, is a long-haired breed of cat characterized by a round face and short muzzle. The first documented ancestors of Persian cats were imported into Italy from Persia around 1620. Wikipedia
+                    Lifespan: 12 – 17 years (In captivity)
+                    Origin: Iran
+                    CFA: standard
+                    Other names: Persian longhair, Shirazi</p>
+            </div>
+            <div class="col1">
+                <h1>Ragdoll</h1>
+                <img src="202206161553491347.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Ragdoll is a breed of cat with a distinct colorpoint coat and blue eyes. Its morphology is large and weighty, and it has a semi-long and silky soft coat. American breeder Ann Baker developed Ragdolls in the 1960s. They are best known for their docile, placid temperament and affectionate nature. Wikipedia
+                    Origin: Riverside
+                    Breed of: Cat
+                    Rank: Breed</p>
+            </div>
+            <div class="col1">
+                <h1>Sphynx cat</h1>
+                <img src="adorable-hairless-sphynx-kittens-46-5cb83da47e2f8__700.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Sphynx cat also known as the Canadian Sphynx, is a breed of cat known for its lack of fur. Hairlessness in cats is a naturally occurring genetic mutation, and the Sphynx was developed through selective breeding of these animals, starting in the 1960s. Wikipedia
+                    Origin: Toronto
+                    TICA: standard</p>
+            </div>
+            <div class="col1">
+                <h1>American Shorthair</h1>
+                <img src="American+Shorthair+kitten+ready+to+pounce-min.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The American Shorthair is a breed of domestic cat believed to be descended from European cats brought to North America by early settlers to protect valuable cargo from mice and rats. According to the Cat Fanciers' Association, in 2020, it was the eighth most popular pedigreed cat in the world. Wikipedia
+                    Origin: Europe, North America
+                    CFA: standard</p>
+            </div>
+            <div class="col1">
+                <h1>Abyssinian</h1>
+                <img src="Abyssinian-Kitten-Picture.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Abyssinian is a breed of domestic short-haired cat with a distinctive "ticked" tabby coat, in which individual hairs are banded with different colors. They are also known simply as Abys. Wikipedia
+                    Origin: Ethiopia, South East Asia
+                    Scientific name: Felis catus
+                    Rank: Animal breed
+                    Higher classification: Cat
+                    TICA: standard</p>
+            </div>
+            <div class="col1">
+                <h1>Exotic Shorthair</h1>
+                <img src="3d4ad7ffdf6e726.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Exotic Shorthair is a breed of cat developed as a short-haired version of the Persian. The Exotic is similar to the Persian in many ways, including temperament and conformation, a flat nose and face with the exceptions of the short dense coat. Wikipedia
+                    Origin: United States
+                    CFA: standard
+                    Foundation bloodstock: American Shorthair; Persian Cat; Burmese (occasionally); Russian Blue (occasionally)</p>
+            </div>
+            <div class="col1">
+                <h1>Scottish Fold</h1>
+                <img src="07ea51c25f6e1b6995f2c34123afd107.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Scottish Fold is a breed of domestic cat with a natural dominant gene mutation that affects cartilage throughout the body, causing the ears to "fold", bending forward and down towards the front of the head, which gives the cat what is often described as an "owl-like" appearance. Wikipedia
+                    Origin: Scotland
+                    Rank: Animal breed
+                    Higher classification: Cat
+                    CFA: standard
+                    Other names: Scot Fold</p>
+            </div>
+            <div class="col1">
+                <h1>Burmese cat</h1>
+                <img src="Cat-Burmese-A_lilac_burmese_kitten_with_sandy_coloured_eyes.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Burmese cat is a breed of domestic cat, originating in Burma, believed to have its roots near the Thai-Burma border and developed in the United States and Britain. Most modern Burmese are descendants of one female cat called Wong Mau, which was brought from Burma to America in 1930 and bred with American Siamese. Wikipedia
+                    Origin: Myanmar (Burma), Thailand
+                    Scientific name: Felis catus
+                    Higher classification: Cat
+                    TICA: standard</p>
+            </div>
+            <div class="col1">
+                <h1>Siberian cat</h1>
+                <img src="14829202104300705293940.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Siberian is a centuries-old landrace of domestic cat in Russia and recently developed as a formal breed with standards promulgated the world over since the late 1980s. Siberians vary from medium to medium-large in size. Wikipedia
+                    Origin: Russia
+                    Other names: Siberian Forest Cat; Moscow Semi-longhair Neva Masquerade (colourpoint variant)
+                    TICA: standard</p>
+            </div>
+            <div class="col1">
+                <h1>Norwegian Forest cat</h1>
+                <img src="a16cbbe0e57f23a59980cb1cdeb63a8c.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Norwegian Forest cat is a breed of domestic cat originating in Northern Europe. This natural breed is adapted to a very cold climate, with a top coat of long, glossy, water-shedding hair and a woolly undercoat for insulation. Wikipedia
+                    Scientific name: Felis catus
+                    Origin: Norway
+                    Common nicknames: skogkatt
+                    FIFe: standard</p>
+            </div>
+            <div class="col1">
+                <h1>Lykoi</h1>
+                <img src="DSC3229-1024x886.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>he Lykoi is a natural mutation from a domestic shorthaired cat. The mutation has occurred in domestic cats over the last 20 years. DNA testing has been done by UC Davis to confirm that the cats do not carry the Sphynx/Devon Rex gene. The breed was developed by Patti Thomas in Vonore, Tennessee. Wikipedia
+                    Origin: Vonore
+                    Scientific name: Felis catus
+                    Rank: Animal breed
+                    Common nicknames: Werewolf cat, wolf cat
+                    TICA: standard</p>
+            </div>
+            <div class="col1">
+                <h1>Chausie</h1>
+                <img src="65198_1755386166_1650735908.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Chausie is a domestic breed of cat that was developed by breeding a few individuals from the non-domestic species jungle cat to a far greater number of domestic cats. The Chausie was first recognized as a domestic breed by The International Cat Association in 1995. Wikipedia
+                    Origin: Egypt
+                    Rank: Animal breed
+                    Breed of: Cat</p>
+            </div>
+            <br>
+             <hr>
+             <center>
+             <div class="hover1">
+                <h2> ONLINE_SHOPPING</h2>
+                <P>
+                   1.PETS<br>
+                   2.PLANTS <br>
+                   3.PETS-ACCESSORIES<br>
+                   4.PLANTS-ACCESSORIES<br>
+                   5.PETS-SPA & PETS-CARE<br>
+                   6.PLANTS-CARE<br>
+                   7.ADD-YOUR PRODUCTS
+               </P>
+               <h2>
+                   COSTOMER POLICIES
+               </h2>
+               <P>
+                   CONTACT US <br>
+                   TERMS OF USE <br>
+                   TRACK ORDERS <br>
+                   SHIPPING <br>
+                   RETURNS <br>
+                   PRIVACY POLICY
+               </P>
+               <h2>
+                   IN CASE OF ANY CONCERN, CONTACT US
+               </h2>
+               <a href="mailto:webmaster@example.com">@2022 www.greenhousepetzone.com</a><br>
+               <h3> @2022 www.greenhousepetzone.com</h3>
+               <h3>telephone:+91-oo-oooooooo</h3><br>
+               <h4> Green House Pet Zone is a global platform that empowers entrepreneurs and small businesses with shops and homes by providing full stack technology that increases earnings and eases operations. Bringing affordable and trusted accommodation that people can sell & buy easily.</h4>
+               <a href=""><img src="Instagram-logo-transparent-PNG.png" height="70px"width="70" alt=""></a>
+               <a href=""><img src="fb_icon_325x325.png" height="70px"width="70" alt=""></a>
+               <a href=""><img src="twitter-icon-transparent-11549680383mmzgiol88v.png" height="70px"width="70" alt=""></a>
+            </center>
+            
+         
+</body>
+</html>

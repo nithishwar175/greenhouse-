@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS_PAGE</title>
+    <style>
+        body{
+            background-color: darkseagreen;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        font-family:"poppins",sans-serif ;
+        box-sizing: border-box;
+        }
+        .header{
+            
+          height: 100vh;
+          width: 100%;
+          padding:0 8% ;
+          position: relative;
+        }
+        .header img{
+            border-style: solid;
+            border-color: orangered;
+        }
+
+        .body{
+            background-color: cadetblue;
+        }
+        nav{
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .logo{
+             width: 140px;
+        }
+        .nav-links{
+        padding: 28px 0;
+        }
+        .nav-link li{
+        display: inline-block;
+        margin: 0 15px;
+        }
+        .nav-link li a{
+                text-decoration:none ;
+            color:black;
+           padding: 5px 0;
+           position: relative;
+        }
+        .nav-link li a::after{
+           content: '';
+           background:#ff3d00 ;
+           width: 0%;
+           height: 2px;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           transition: width 0.5s;
+        }
+        .nav-link li a:hover::after{
+           width: 100%
+        }
+        .btn{
+        background:orangered;
+        color: #fff;
+        padding: 10px 30px;
+         border-radius: 3px;
+        cursor:pointer;
+        }
+        .content{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              width:90% ;
+              max-width: 900px;
+              transform:translate(-50%, -50%) ;
+              text-align: center;
+              color:transparent;
+        }
+        .content h1{
+        font-size:65px ;
+        font-weight:600px ;
+        margin-bottom:40px ;
+        }
+        .content form {
+           background:transparent;
+           border: solid 5px;
+           padding: 10px;
+           border-radius: 8px;
+           display: flex;
+        }
+        .content form input{
+            flex: 1;
+           border: none;
+           outline: none;
+           padding: 0  40px;
+           font-size: 20px;
+        }
+        .content form button{
+        background: #ff3d00;
+        color: #fff;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 60px;
+        }
+        .code{
+            margin-top: 615px;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-color: cadetblue;
+        }
+        .marquee{
+            margin-top: 10px;
+        }
+        .marquee1{
+            margin-top: 2px 30px 40px;
+        }
+        .code1 img{
+
+    margin-top: 700px;
+  
+}
+        .hover:hover{
+            margin: 50px;
+            margin-bottom: 50px;
+            background-color: lightsteelblue;
+            font-size: 50px;
+        }
+      
+        .col2{ margin-left: 200px;
+            margin-right: 200px; 
+               text-align: center;
+               padding-top: 50px;
+        } 
+            </style>
+             <div class ="header">
+                <nav>
+              <img src="Untitled_design-removebg-preview.png" class="logo">
+               <ul class="nav-link">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="">NOTIFICATION</a></li>
+        <li><a href="basket.html">BASKET</a></li>
+        <li><a href="favourite page.html">FAVOURITES</a></li>
+        <li><a href="reviews pages.html">REVIEWS</a></li>
+        <li><a href="CONTACT US page.html">CONTACT</a></li>
+        <li><a href="account page.html">ACCOUNT</a></li>
+        <li><a href="login page.html"> SIGN UP</li></a> 
+            </ul>
+            </nav>
+         <div class="content">
+        <h1> GREEN HOUSE PET ZONE</h1>
+        
+             </div>
+                  <div class="col2">
+                  <h2> Plants by Season</h2></div>
+                  <div class="col2">
+                  <img src="nurserylive-g-chlorophytum-spider-plant-plant_6c3477e8-39ca-4d4b-b51a-1f9fb435ac17_600x600.jpg" alt="" srcset="" height="370px"width="310px">
+                  <p>Chlorophytum, Spider Plant - Plant</p>
+                  <p>Current price₹ 199</p>
+                  <img src="nurserylive-g-jasminum-sambac-mogra-arabian-jasmine_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Jasminum sambac, Mogra, Arabian Jasmine - Plant</p>
+                  <p>₹ 299
+                    (MRP Inclusive of all taxes)</p>
+                  <img src="nurserylive-g-miniature-rose-button-rose-any-color-plant_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Miniature Rose, Button Rose (Any Color) - Plant</p>
+                  <p>₹ 299</p>
+                  <img src="nurserylive-plants-parijat-tree-parijatak-night-flowering-jasmine-plant-16969158688908_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Parijat Tree, Parijatak, Night Flowering Jasmine - Plant</p>
+                  <p>₹ 349</p>
+                  <img src="nurserylive-damascus-rose-scented-rose-any-color-plant_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Damascus Rose, Scented Rose (Any Color) - Plant</p>
+                  <p> Current price₹ 299</p>
+                  <img src="nurserylive-plants-krishna-tulsi-plant-holy-basil-ocimum-tenuiflorum-black-plant-16968990425228_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Krishna Tulsi Plant, Holy Basil, Ocimum tenuiflorum (Black) - Plant</p>
+                  <p>₹ 249</p>
+                  <img src="nurserylive-raat-ki-rani-raat-rani-night-blooming-jasmine-plant_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Raat Ki Rani, Raat Rani, Night Blooming Jasmine - Plant</p>
+                  <p>₹ 299</p>
+                  <img src="nurserylive-hydrangea-macrophylla-blue-plant_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Hydrangea macrophylla (Any Color) - Plant</p>
+                  <p>₹ 449</p>
+                  <img src="nurserylive-g-plants-syngonium-pink-plant_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Syngonium (Pink) - Plant</p>
+                  <p>₹ 199</p>
+                  <div class="hover2">
+                    <h2>Plants by Location</h2>
+                  </div>
+                  <img src="nurserylive-plants-sansevieria-trifasciata-hahnii-snake-plant-plant-16969295855756_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Sansevieria trifasciata Hahnii, Snake Plant - Plant</p>
+                  <p>₹ 399</p>
+                  <img src="nurserylive-g-snake-plant-sansevieria-trifasciata-sansevieria-zeylanica-plant_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Snake Plant, Sansevieria trifasciata, Sansevieria zeylanica - Plant</p>
+                  <p>₹ 499</p>
+                  <img src="nurserylive-g-beautiful-golden-foliage-plants-for-vertical-garden_fe304173-bedc-4a0f-8b16-9e7543842fbb_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Beautiful Golden Foliage Plants for Vertical Garden</p>
+                  <p> Current price₹ 4,249</p>
+                  <img src="nurserylive-g-top-5-shade-tolerant-indoor-plants-for-home_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Top 5 Shade Tolerant Indoor Plants for Home</p>
+                  <p>₹ 1,299</p>
+                  <img src="nurserylive-gifts-air-purifying-green-money-plant-for-clean-diwali-gift-plant_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Air Purifying Green Money Plant for Clean Diwali - Gift Plant</p>
+                  <p> Current price₹ 299</p>
+                  <img src="nurserylive-gifts-eco-friendly-peace-lily-gift-plant-16968838840460_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Eco friendly Peace Lily - Gift Plant</p>
+                  <p> Current price₹ 349</p>
+                  <img src="nurserylive-g-best-indoor-survivals-for-vertical-garden_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Best Indoor Survivals for Vertical Garden</p>
+                  <p> Current price₹ 4,199</p>
+                  <img src="nurserylive-gifts-green-money-plant-for-good-luck-in-polka-cup-gift-plant-16968905359500_600x600.jpg" alt="" srcset=""height="370px"width="310px">
+                  <p>Green Money Plant for Good Luck in Polka Cup- Gift Plant</p></div>
+                 <center>
+                    <br>
+                    <hr>
+                 <div class="hover1">
+                  <h2> ONLINE_SHOPPING</h2>
+                  <P>
+                     1.PETS<br>
+                     2.PLANTS <br>
+                     3.PETS-ACCESSORIES<br>
+                     4.PLANTS-ACCESSORIES<br>
+                     5.PETS-SPA & PETS-CARE<br>
+                     6.PLANTS-CARE<br>
+                     7.ADD-YOUR PRODUCTS
+                 </P>
+                 <h2>
+                     COSTOMER POLICIES
+                 </h2>
+                 <P>
+                     CONTACT US <br>
+                     TERMS OF USE <br>
+                     TRACK ORDERS <br>
+                     SHIPPING <br>
+                     RETURNS <br>
+                     PRIVACY POLICY
+                 </P>
+                 <h2>
+                     IN CASE OF ANY CONCERN, CONTACT US
+                 </h2>
+                 <a href="mailto:webmaster@example.com">@2022 www.greenhousepetzone.com</a><br>
+                 <h3> @2022 www.greenhousepetzone.com</h3>
+                 <h3>telephone:+91-oo-oooooooo</h3><br>
+                 <h4> Green House Pet Zone is a global platform that empowers entrepreneurs and small businesses with shops and homes by providing full stack technology that increases earnings and eases operations. Bringing affordable and trusted accommodation that people can sell & buy easily.</h4>
+                 <a href=""><img src="Instagram-logo-transparent-PNG.png" height="70px"width="70" alt=""></a>
+                 <a href=""><img src="fb_icon_325x325.png" height="70px"width="70" alt=""></a>
+                 <a href=""><img src="twitter-icon-transparent-11549680383mmzgiol88v.png" height="70px"width="70" alt=""></a>
+                </center>
+            
+               
+</body>
+</html>

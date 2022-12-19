@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETS_PAGE</title>
+    <style>
+    body{
+        background-color: lightyellow;
+          
+          }
+      </style>
+</head>
+<body>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        font-family:"poppins",sans-serif ;
+        box-sizing: border-box;
+        }
+        .header{
+            
+          height: 100vh;
+          width: 100%;
+          padding:0 8% ;
+          position: relative;
+        }
+        .header img{
+            border-style: solid;
+            border-color: orangered;
+        }
+
+        .body{
+            background-color: cadetblue;
+        }
+        nav{
+         display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+        .logo{
+             width: 140px;
+        }
+        .nav-links{
+        padding: 28px 0;
+        }
+        .nav-link li{
+        display: inline-block;
+        margin: 0 15px;
+        }
+        .nav-link li a{
+                text-decoration:none ;
+            color:black;
+           padding: 5px 0;
+           position: relative;
+        }
+        .nav-link li a::after{
+           content: '';
+           background:#ff3d00 ;
+           width: 0%;
+           height: 2px;
+           position: absolute;
+           bottom: 0;
+           left: 0;
+           transition: width 0.5s;
+        }
+        .nav-link li a:hover::after{
+           width: 100%
+        }
+        .btn{
+        background:orangered;
+        color: #fff;
+        padding: 10px 30px;
+         border-radius: 3px;
+        cursor:pointer;
+        }
+        .content{
+              position: absolute;
+              left: 50%;
+              top: 50%;
+              width:90% ;
+              max-width: 900px;
+              transform:translate(-50%, -50%) ;
+              text-align: center;
+              color:transparent;
+        }
+        .content h1{
+        font-size:65px ;
+        font-weight:600px ;
+        margin-bottom:40px ;
+        }
+        .content form {
+           background:transparent;
+           border: solid 5px;
+           padding: 10px;
+           border-radius: 8px;
+           display: flex;
+        }
+        .content form input{
+            flex: 1;
+           border: none;
+           outline: none;
+           padding: 0  40px;
+           font-size: 20px;
+        }
+        .content form button{
+        background: #ff3d00;
+        color: #fff;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        height: 60px;
+        }
+        .code{
+            margin-top: 615px;
+            background-image: url("gardening\ boy.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-color: cadetblue;
+        }
+        .marquee{
+            margin-top: 10px;
+        }
+        .marquee1{
+            margin-top: 2px 30px 40px;
+        }
+        .col{ 
+        margin-left: 200px;
+            margin-right: 200px; 
+               text-align: center;
+               padding-top: 30px;
+        }     
+            </style>
+           <div class ="header">
+            <nav>
+          <img src="Untitled_design-removebg-preview.png" class="logo">
+           <ul class="nav-link">
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="">NOTIFICATION</a></li>
+    <li><a href="basket.html">BASKET</a></li>
+    <li><a href="favourite page.html">FAVOURITES</a></li>
+    <li><a href="reviews pages.html">REVIEWS</a></li>
+    <li><a href="CONTACT US page.html">CONTACT</a></li>
+    <li><a href="account page.html">ACCOUNT</a></li>
+    <li><a href="login page.html"> SIGN UP</li></a> 
+        </ul>
+        </nav>
+         <div class="content">
+        <h1> GREEN HOUSE PET ZONE</h1>
+             </div>      
+             <div class="col">
+                <h1>Pomeranian</h1>
+                <img src="Teacup-Pomeranian-Puppy.jpg" height="260px" width="230px">
+                <p>ABOUT</p>
+                <p>The Pomeranian is a breed of dog of the Spitz type that is named for the Pomerania region in north-west Poland and north-east Germany in Central Europe. Classed as a toy dog breed because of its small size, the Pomeranian is descended from larger Spitz-type dogs, specifically the German Spitz. Wikipedia
+                    Life span: 12 – 16 years
+                    Hypoallergenic: No
+                    Temperament: Playful, Extroverted, Friendly, Sociable, Intelligent, Active
+                    Height: 20 cm (Adult)
+                    Colors: White, Black, Red, Blue, Cream, Tan, Orange, Brown, Grey-shaded
+                    Origin: Germany, Poland
+                    Mass: 1.9 – 3.5 kg (Adult)</p>
+            </div>
+            
+                <div class="col">
+                <h1>shih tzu</h1>
+                <img src="shih-tzu-gallery-2.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Shih Tzu is a toy dog breed originating from Tibet and having been bred from the Pekingese and the Lhasa Apso. Shih Tzus are known for their short snouts and large round eyes, as well as their ever growing coat, floppy ears, and short and stout posture. Wikipedia
+                    FCI Number: 208
+                    Hypoallergenic: Yes
+                    Life expectancy: 10 – 16 years
+                    Colors: Black, White, Brindle, Liver & White, Liver, Light Brown, Dark Brown, Black & White, Blue, Gold
+                    Temperament: Playful, Clever, Friendly, Lively, Intelligent, MORE
+                    Origin: China, Tibet
+                    Height: 20 – 28 cm (Male, Adult, At the withers), 20 – 28 cm (Female, Adult, At the withers)</p>
+            </div>
+            
+                <div class="col">
+                <h1>cavalier king charles spaniel </h1>
+                <img src="two-cavalier-king-charles-spaniel-puppies-sitting-on-a-meadow-HTF000726.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Cavalier King Charles Spaniel is a British breed of toy dog of spaniel type. Four colours are recognised: Blenheim, tricolour, black and tan, and ruby; the coat is smooth and silky. The lifespan is usually between eight and twelve years. Wikipedia
+                    FCI Number: 136
+                    Hypoallergenic: No
+                    Life expectancy: 9 – 14 years
+                    Origin: United Kingdom
+                    Colors: Blenheim, Black & Tan, Tri-color, Ruby
+                    Temperament: Playful, Affectionate, Sociable, Fearless, Patient, Gentle, Adaptable, Graceful
+                    Height: 30 – 33 cm (Female, Adult), 30 – 33 cm (Male, Adult)</p>
+            </div>
+            
+                <div class="col">
+                    <h1>Pug</h1>
+                    <img src="miniature-pug-long.jpg" height="260px"width="230px">
+                    <p>ABOUT</p>
+                    <p>The Pug is a breed of dog originally from China, with physically distinctive features of a wrinkly, short-muzzled face and curled tail. Wikipedia
+                        FCI Number: 253
+                        Hypoallergenic: No
+                        Collective noun: grumble Wikimedia Foundation
+                        Term for young: pup Wikimedia Foundation
+                        Life expectancy: 12 – 15 years
+                        Colors: Black, Fawn, Apricot, Silver Fawn
+                        Temperament: Charming, Clever, Mischievous, Stubborn, Docile, Sociable, Affectionate, Attentive, Loving, Playful, Quiet, Calm</p>
+            </div>
+            <div class="col">
+                <h1> Brussels Griffon</h1>
+                <img src="5de69d46e1203c1943b3820dd2aeed49.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Griffon Bruxellois or Brussels Griffon is a breed of toy dog, named for their city of origin of Brussels, Belgium. The Griffon Bruxellois may refer to three different breeds, the Griffon Bruxellois, the Griffon Belge and the Petit Brabançon. Wikipedia
+                    FCI Number: 80,81,82
+                    Hypoallergenic: Yes
+                    Life expectancy: 10 – 15 years
+                    Origin: Belgium
+                    Higher classification: Dog
+                    Colors: Black, Belge, Black & Tan, Brown, Blue, Red
+                    Temperament: Sensitive, Self-important, Alert, Inquisitive, Companionable, Watchful</p>
+                </div>
+            
+                <div class="col">
+                    <h1>Japanese Chin</h1>
+                    <img src="Japanese-chi-puppy.jpg" height="260px"width="230px">
+                    <p>ABOUT</p>
+                    <p>The Japanese Chin, also known as the Japanese Spaniel, is a dog known for its strabismus of the eyes. Being both a lap dog and a companion dog, this toy breed has a distinctive heritage. Wikipedia
+                        FCI Number: 206
+                        Hypoallergenic: No
+                        Life expectancy: 12 – 14 years
+                        Height: 20 – 27 cm (At the withers)
+                        Colors: Tri-color, Sable & White, Lemon & White, Black & White, Red & White
+                        Temperament: Cat-like, Intelligent, Loyal, Alert, Independent, Loving
+                        Origin: Japan, China
+                        </p>
+                </div>
+            
+                <div class="col">
+                    <h1>French Bulldog</h1>
+                <img src="french-bulldog-gallery-1-min.jpg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The French Bulldog, French: Bouledogue Français, is a French breed of companion dog or toy dog. It appeared in Paris in the mid-nineteenth century, apparently the result of cross-breeding of Toy Bulldogs imported from England and local Parisian ratters. Wikipedia
+                    FCI Number: 101
+                    Hypoallergenic: No
+                    Life expectancy: 10 – 14 years
+                    Higher classification: Dog
+                    Colors: White, Brindle, Fawn, Brindle & White, Tan
+                    Temperament: Bright, Easygoing, Sociable, Lively, Affectionate, Keen, Alert, Patient, Athletic, Playful
+                    Origin: France, England</p>
+                </div>
+                <div class="col">
+                    <h1>Alaskan Klee Kai</h1>
+                    <img src="313dd8f7c6fe6e13dbdb1917d092117b.jpg" height="260px"width="230px">
+                    <p>ABOUT</p>
+                    <p>The Alaskan Klee Kai is a spitz-type breed of dog, developed in the late 20th century as a companion-sized dog resembling the larger Alaskan Malamute and Siberian Husky. It is an energetic, intelligent dog with an appearance that reflects its northern heritage. Wikipedia
+                        Origin: United States
+                        Height: 38 – 43 cm (Adult, Standard Size)
+                        Higher classification: Dog
+                        Lifespan: 12 – 16 years
+                        Mass: 7.3 – 10 kg (Adult, Standard Size)
+                        Colors: White, Gray & White, Red & White, Black & White
+                        Temperament: Curious, Intelligent, Agile, Active, Quick</p>
+             
+                </div> 
+                <div class="col">
+                    <h1>Shiba Inu</h1>
+                    <img src="360_F_297916050_XuTXR4ipMhtmxShn9BzVMbeltqiZWAet.jpg" height="260px"width="230px">
+                    <p>ABOUT</p>
+                    <p>The Shiba Inu is a breed of hunting dog from Japan. A small-to-medium breed, it is the smallest of the six original and distinct spitz breeds of dog native to Japan. "Inu" is a Japanese word for "dog". Wikipedia
+                        FCI Number: 257
+                        Hypoallergenic: No
+                        Life expectancy: 12 – 15 years
+                        Colors: Red Sesame, Cream, Black & Tan, Black Sesame, Red, Sesame
+                        Height: Male: 35–43 cm, Female: 33–41 cm
+                        Temperament: Charming, Keen, Alert, Confident, Fearless, Faithful
+                        Weight: Male: 8–11 kg, Female: 6.8–9 kg
+                        </p>
+             
+                </div> 
+                <div class="col">
+                    <h1>Bulldog </h1>
+                    <img src="a5ae1c1f5aab186404b796d157d72a73.jpg" height="260px"width="230px">
+                    <p>ABOUT</p>
+                    <p>The Bulldog is a British breed of dog of mastiff type. It may also be known as the English Bulldog or British Bulldog. It is of medium size, a muscular, hefty dog with a wrinkled face and a distinctive pushed-in nose. Wikipedia
+                        Life expectancy: 8 – 10 years
+                        Colors: White, Fawn, Piebald, Fawn & White, Brindle & White, Red, Red & White, Red Brindle
+                        Height: Female: 31–40 cm, Male: 31–40 cm
+                        Temperament: Willful, Docile, Friendly, Gregarious
+                        Weight: Female: 18–23 kg, Male: 23–25 kg
+                        Scientific name: Canis lupus familiaris
+                        FCI: standard</p>
+             
+                </div> 
+                <div class="col">
+                    <h1>German Shepherd</h1>
+                    <img src="10757077680_IMG_8086-e1586405683458.jpg" height="260px"width="230px">
+                    <p>ABOUT</p>
+                    <p>The German Shepherd or Alsatian is a German breed of working dog of medium to large size. The breed was developed by Max von Stephanitz using various traditional German herding dogs from 1899. It was originally bred as a herding dog, for herding sheep. Wikipedia
+                        Temperament: Stubborn, Intelligent, Loyal, Alert, Confident, Obedient, Protective, Curious, Watchful, Courageous, Brave
+                        Life expectancy: 9 – 13 years
+                        Colors: Black, Black & Tan, Sable, Black & Silver, Grey, Red & Black
+                        Height: Male: 60–65 cm, Female: 55–60 cm
+                        Weight: Male: 30–40 kg, Female: 22–32 kg
+                        Speed: 48 km/h (Maximum, Running)
+                        Origin: Germany</p>
+                </div>
+                    <div class="col">
+                        <h1>Labrador Retriever</h1>
+                        <img src="360_F_441193237_0iBiYiOiHg4qlksaHXLz0RvXyuF8EC8V.jpg" height="260px"width="230px">
+                        <p>ABOUT</p>
+                        <p>The Labrador Retriever or simply Labrador is a British breed of retriever gun dog. It was developed in the United Kingdom from fishing dogs imported from the colony of Newfoundland, and was named after the Labrador region of that colony. Wikipedia
+                            Lifespan: 10 – 12 years (Adult)
+                            Weight: Male: 29–36 kg, Female: 25–32 kg
+                            Height: Male: 57–62 cm, Female: 55–60 cm
+                            Colors: Black, Chocolate, Yellow
+                            Temperament: Even Tempered, Intelligent, Kind, Agile, Outgoing, Trusting, Gentle
+                            Hypoallergenic: No
+                            Origin: Newfoundland</p>
+             </div>   
+             <div class="col">
+                <h1>Siberian Husky</h1>
+                <img src="0A1CE267-ABC7-4A6F-84C2-B0F2C7949B22.jpeg" height="260px"width="230px">
+                <p>ABOUT</p>
+                <p>The Siberian Husky is a medium-sized working sled dog breed. The breed belongs to the Spitz genetic family. It is recognizable by its thickly furred double coat, erect triangular ears, and distinctive markings, and is smaller than the similar-looking Alaskan Malamute. Wikipedia
+                    Life span: 12 – 15 years
+                    Colors: White, Black, Black & Tan, Gray & White, Silver-gray, Sable & White, Black & White, Grey, Red & White
+                    Height: Female: 51–56 cm, Male: 53–60 cm
+                    Weight: Female: 16–23 kg, Male: 20–27 kg
+                    Temperament: Friendly, Intelligent, Outgoing, Alert, Gentle
+                    Origin: Siberia
+                    Common nicknames: Husky; Sibe</p>
+     </div>   
+     <div class="col">
+        <h1>Golden Retriever</h1>
+        <img src="81.jpg" height="260px"width="230px">
+        <p>ABOUT</p>
+        <p>The Golden Retriever is a Scottish breed of retriever dog of medium size. It is characterised by a gentle and affectionate nature and a striking golden coat. It is commonly kept as a pet and is among the most frequently registered breeds in several Western countries. Wikipedia
+            Life expectancy: 10 – 12 years
+            Colors: Dark Golden, Cream, Light Golden, Golden
+            Weight: Female: 25–32 kg, Male: 30–34 kg
+            Height: Female: 51–56 cm, Male: 56–61 cm
+            Origin: Scotland, United Kingdom, England
+            Hypoallergenic: No
+            Temperament: Friendly, Intelligent, Reliable, Kind, Trustworthy, Confident</p>
+</div>   
+<div class="col">
+    <h1>Afghan Hound</h1>
+    <img src="afghanhound_puppy.jpg" height="260px"width="230px">
+    <p>ABOUT</p>
+    <p>The Afghan Hound is a hound that is distinguished by its thick, fine, silky coat and its tail with a ring curl at the end. The breed is selectively bred for its unique features in the cold mountains of Afghanistan. Its local name is Tāžī Spay or Sag-e Tāzī. Wikipedia
+        Temperament: Dignified, Aloof, Independent, Clownish, Happy
+        Origin: Afghanistan
+        Height: Male: 68–74 cm, Female: 60–69 cm
+        Life expectancy: 12 – 14 years
+        Hypoallergenic: Yes
+        Weight: Male: 26–34 kg, Female: 26–34 kg
+        Colors: Black, Cream, Red</p>
+</div>   
+<div class="col">
+    <h1>Great Dane</h1>
+    <img src="1452fd9bf0c0e76307d2f53095faa5be.jpg" height="260px"width="230px">
+    <p>ABOUT</p>
+    <p>The Great Dane is a large sized dog breed originating from Germany. The Great Dane descends from hunting dogs from the Middle Ages used to hunt wild boar and deer, and as guardians of German nobility. It is one of the largest breeds in the world along with its relative, the Irish Wolfhound. Wikipedia
+        Life expectancy: 8 – 10 years
+        Height: Female: 71–84 cm, Male: 76–90 cm
+        Temperament: Friendly, Devoted, Confident, Reserved, Loving, Gentle
+        Weight: Female: 45–59 kg, Male: 54–90 kg
+        Colors: Black, Brindle, Fawn, Mantle, Blue, Harlequin
+        Origin: Germany
+        Breed of: Dog</p>
+</div>   
+<div class="col">
+    <h1>Bullmastiff</h1>
+    <img src="A-bullmastiff-puppy.jpg.optimal.jpg" height="260px"width="230px">
+    <p>ABOUT</p>
+    <p>The Bullmastiff is a British breed of dog of mastiff type and large size, with a solid build and a short muzzle. It was developed as a guard dog in the nineteenth century by cross-breeding the English Mastiff with the now-extinct Old English Bulldog. It was recognised as a breed by The Kennel Club in 1924. Wikipedia
+        Temperament: Powerful, Reliable, Docile, Devoted, Loyal, Alert, Protective, Reserved, Loving, Calm, Courageous
+        Life span: 8 – 10 years
+        Colors: Brindle, Fawn, Red
+        Weight: Male: 50–59 kg, Female: 45–54 kg
+        Height: Male: 64–68 cm, Female: 61–66 cm
+        Hypoallergenic: No
+        FCI: standard</p>
+</div>   
+<div class="col">
+    <h1>Chippiparai</h1>
+    <img src="5a64cbbd53136e0024b797bcedd11004--indian-greyhound.jpg" height="260px"width="230px">
+    <p>ABOUT</p>
+    <p>The Chippiparai is a breed of sighthound from the State of Tamil Nadu in southern India. The Chippiparai has typical streamlined sighthound features with long legs and a lean and lithe frame built for speed. The breed is usually white in colour, although other colours can be found. Wikipedia
+        Height: 64 cm (At the withers)
+        Colors: Silver-gray, Fawn, Grey
+        Origin: India
+        Scientific name: Canis lupus familiaris
+        Temperament: Loyal, Independent, Robust
+        Higher classification: Dog
+        Rank: Animal breed</p>
+</div>   
+<div class="col">
+    <h1>Bully Kutta</h1>
+    <img src="pakistani-bully2.jpg" height="260px"width="230px">
+    <p>ABOUT</p>
+    <p>The Bully Kutta is a type of large dog that originated in the Indian subcontinent, dating back to the 16th century. The Bully Kutta is a working dog used for hunting and guarding. The type is popular in the Punjab region of India and Pakistan, including Haryana and Delhi, as well as in Tamil Nadu. Wikipedia
+        Higher classification: Dog
+        Lifespan: 8 – 10 years (Adult)
+        Colors: Black, White, Brindle, Fawn, Red, Harlequin
+        Temperament: Aggressive, Intelligent, Energetic, Responsive, Alert, Protective
+        Weight: Male: 70–90 kg, Female: 60–70 kg
+        Origin: Thanjavur, Sindh
+        Height: 81 – 89 cm (Male, Adult), 71 – 81 cm (Female, Adult)</p>
+</div>   
+<div class="col">
+    <h1>Gull Dong</h1>
+    <img src="298325202-240x180.jpeg" height="260px"width="230px">
+    <p>ABOUT</p>
+    <p>The Gull Dong is a dog breed of India and Pakistan that is often used in dog fighting, hunting, and guarding. Wikipedia
+        Higher classification: Dog
+        Rank: Animal breed
+        Scientific name: Canis lupus familiaris
+        Colors: White, Black, Brindle
+        Temperament: Aggressive, Stubborn
+        Origin: Pakistan, India
+        </p>
+</div>   
+<div class="col">
+    <h1>Rajapalayam dog</h1>
+    <img src="b72e50ff325e9fb8ae3cf65871d79ccb--dog-photos-pet.jpg" height="260px"width="230px">
+    <p>ABOUT</p>
+    <p>The Rajapalayam, also known as the Polygar Hound, Shikkar Hound, or Indian Ghost Hound, is a southern Indian dog breed. The breed is named after Rajapalayam, a town in the Virudhunagar, Tamil Nadu. Wikipedia
+        Color: White
+        Origin: India
+        Height: 65 – 75 cm (Adult, At the withers)
+        Higher classification: Dog
+        Rank: Animal breed
+        Scientific name: Canis lupus familiaris
+        Temperament: Devoted, Affectionate</p>
+</div>   
+<div class="col">
+    <h1>American Pit Bull Terrier</h1>
+    <img src="american-pit-bull-terrier-4.jpg" height="260px"width="230px">
+    <p>ABOUT</p>
+    <p>The American Pit Bull Terrier is a dog breed recognized by the United Kennel Club and the American Dog Breeders Association, but not the American Kennel Club. It is a medium-sized, short-haired dog, of a solid build, whose early ancestors came from the British Isles. Wikipedia
+        Temperament: Stubborn, Friendly, Strong Willed, Intelligent, Affectionate, Loyal, Obedient, Clownish, Gentle, Courageous
+        Origin: British Isles
+        Lifespan: 8 – 15 years
+        Mass: 16 – 27 kg (Male, Adult), 14 – 23 kg (Female, Adult)
+        Height: 45 – 53 cm (Male), 43 – 50 cm (Female)
+        Colors: Black, White, Brindle, Fawn, Tan, Brown, Blue, Grey, Red
+        Scientific name: Canis lupus familiaris</p>
+</div>   
+<div class="col">
+    <h1>Boxer</h1>
+    <img src="Shadow-Boxer.jpg" height="260px"width="230px">
+    <p>ABOUT</p>
+    <p>The Boxer is a medium to large, short-haired dog breed of mastiff-type, developed in Germany. The coat is smooth and tight-fitting; colors are fawn, brindled, or white, with or without white markings. Wikipedia
+        Life expectancy: 10 – 12 years
+        Temperament: Bright, Friendly, Devoted, Intelligent, Energetic, Loyal, Cheerful, Confident, Fearless, Playful, Calm, Brave
+        Height: Female: 53–60 cm, Male: 57–63 cm
+        Weight: Female: 25–29 kg, Male: 27–32 kg
+        Colors: White, Brindle, Fawn
+        Origin: Germany
+        Hypoallergenic: No</p>
+</div>   
+<br>
+             <hr>
+             <center>
+             <div class="hover1">
+                <h2> ONLINE_SHOPPING</h2>
+                <P>
+                   1.PETS<br>
+                   2.PLANTS <br>
+                   3.PETS-ACCESSORIES<br>
+                   4.PLANTS-ACCESSORIES<br>
+                   5.PETS-SPA & PETS-CARE<br>
+                   6.PLANTS-CARE<br>
+                   7.ADD-YOUR PRODUCTS
+               </P>
+               <h2>
+                   COSTOMER POLICIES
+               </h2>
+               <P>
+                   CONTACT US <br>
+                   TERMS OF USE <br>
+                   TRACK ORDERS <br>
+                   SHIPPING <br>
+                   RETURNS <br>
+                   PRIVACY POLICY
+               </P>
+               <h2>
+                   IN CASE OF ANY CONCERN, CONTACT US
+               </h2>
+               <a href="mailto:webmaster@example.com">@2022 www.greenhousepetzone.com</a><br>
+               <h3> @2022 www.greenhousepetzone.com</h3>
+               <h3>telephone:+91-oo-oooooooo</h3><br>
+               <h4> Green House Pet Zone is a global platform that empowers entrepreneurs and small businesses with shops and homes by providing full stack technology that increases earnings and eases operations. Bringing affordable and trusted accommodation that people can sell & buy easily.</h4>
+               <a href=""><img src="Instagram-logo-transparent-PNG.png" height="70px"width="70" alt=""></a>
+               <a href=""><img src="fb_icon_325x325.png" height="70px"width="70" alt=""></a>
+               <a href=""><img src="twitter-icon-transparent-11549680383mmzgiol88v.png" height="70px"width="70" alt=""></a>
+            </center>
+</body>
+</html>
